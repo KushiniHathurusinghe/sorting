@@ -14,7 +14,7 @@ package hms.sort.core;
 
 public class InsertionSort {
 
-    public void InsertionSort(int array[]) {
+    public void InsertionSort(int[] array) {
         int n = array.length;
         for (int i = 1; i < n; ++i) {
             int key = array[i];
@@ -26,6 +26,7 @@ public class InsertionSort {
             }
             array[j + 1] = key;
         }
+
     }
 
 }

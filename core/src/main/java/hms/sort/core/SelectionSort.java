@@ -14,7 +14,7 @@ package hms.sort.core;
 
 public class SelectionSort
 {
-    public void SelectionSort(int array[])
+    public void SelectionSort(int[] array)
     {
         int n = array.length;
 
@@ -33,6 +33,7 @@ public class SelectionSort
             array[minIdx] = array[i];
             array[i] = temp;
         }
+
     }
 
 }

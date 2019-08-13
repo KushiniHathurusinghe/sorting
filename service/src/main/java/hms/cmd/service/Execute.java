@@ -36,17 +36,21 @@ public class Execute {
         }
 
 
-        bs.bubbleSort(array);
+        int bsArray[] = array;
+        bs.bubbleSort(bsArray);
         System.out.println("Sorted Using Bubble Sort ");
-        printArray(array);
+        printArray(bsArray);
 
-        is.InsertionSort(array);
+
+        int isArray[] = array;
+        is.InsertionSort(isArray);
         System.out.println("Sorted Using Bubble Sort ");
-        printArray(array);
+        printArray(isArray);
 
-        ss.SelectionSort(array);
+        int ssArray[] = array;
+        ss.SelectionSort(ssArray);
         System.out.println("Sorted Using Selection Sort ");
-        printArray(array);
+        printArray(ssArray);
 
 
 
