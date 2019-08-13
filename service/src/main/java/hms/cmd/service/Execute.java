@@ -44,7 +44,7 @@ public class Execute {
 
         int isArray[] = array;
         is.InsertionSort(isArray);
-        System.out.println("Sorted Using Bubble Sort ");
+        System.out.println("Sorted Using Insertion Sort ");
         printArray(isArray);
 
         int ssArray[] = array;
